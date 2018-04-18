@@ -11,7 +11,7 @@ class ReviewScreen extends Component {
        right: (
          <Button
            title="Settings"
-           onPress={() => navigate('settings')}
+           onPress={() => { navigate('settings')}}
            backgroundColor="rgba(0,0,0,0)"
            color="rgba(0, 122, 255, 1)"
          />

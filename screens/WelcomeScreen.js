@@ -14,7 +14,7 @@ class WelcomeScreen extends Component {
   }
   render() {
     return (
-        <Slides data={SLIDE_DATA} onComplete={this.onSlidesComplete}/>
+        <Slides data={SLIDE_DATA} onComplete={this.onSlidesComplete} navigation={this.props.navigation}/>
     );
   }
 }
