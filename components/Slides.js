@@ -9,6 +9,7 @@ class Slides extends Component {
   renderLastSlide(index) {
     if( index === this.props.data.length - 1 ) {
       return ( <Button
+        raised
         buttonStyle={styles.button}
         title="Onwards!"
         onPress={this.props.onComplete}
